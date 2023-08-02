@@ -211,5 +211,14 @@ public class User implements Serializable {
 		this.workingExperience = workingExperience;
 	}
 	
+	@Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", userEmail='" + userEmail + '\'' +
+                // Include other fields for a more informative toString()
+                '}';
+    }
 	
 }

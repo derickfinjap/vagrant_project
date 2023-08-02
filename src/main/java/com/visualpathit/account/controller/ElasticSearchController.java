@@ -88,7 +88,7 @@ public class ElasticSearchController {
 	        
 	        tagList.add(getResponse.getSource());
     	}
-        return tagList;
+        return tagList
     }*/
 
     @RequestMapping(value="/rest/users/update/{id}", method=RequestMethod.GET)
